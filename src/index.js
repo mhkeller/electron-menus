@@ -48,7 +48,6 @@ function injectInto (moduleIndexPath, menuArray, opts) {
   // Add our settings, if they exist, and create the text we will inject into the target script
   prep(menuArray, opts)
 
-
   var index_text = readFileSync(moduleIndexPath)
   var $ = cheerio.load(index_text)
 
