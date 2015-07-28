@@ -1,0 +1,11 @@
+
+<script id="{{id}}">
+  var remote = require('remote');
+  var Menu = remote.require('menu');
+
+  var template = {{template}}
+
+  menu = Menu.buildFromTemplate(template);
+
+  Menu.setApplicationMenu(menu);
+</script>

@@ -1,0 +1,36 @@
+{
+  "name": "electron-menus",
+  "version": "0.1.0",
+  "description": "Easily add menus to modules running in Electron.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard --verbose"
+  },
+  "keywords": [
+    "menus",
+    "electron",
+    "atom",
+    "shell"
+  ],
+  "author": "Michael Keller",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "standard": "^4.5.4",
+    "underscore": "^1.8.3"
+  },
+  "standard": {
+    "ignore": [
+      "menus/default.js"
+    ]
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhkeller/electron-menus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhkeller/electron-menus/issues"
+  },
+  "homepage": "https://github.com/mhkeller/electron-menus#readme"
+}
