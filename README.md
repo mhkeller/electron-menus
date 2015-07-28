@@ -20,7 +20,9 @@ var menus = require('electron-menus')
 menus.set(__dirname + '/index.html')
 ````
 
-##### **set** menus.set(pathToIndexFile[, menuDefinition][, settings])
+##### `set`
+
+*.set(pathToIndexFile[, menuDefinition][, settings])*
 
 Takes a `pathToIndexFile`, an optional `menuDefinition` to use, if not provided will default to [`menus/default.js`](menus/default.js) (see that file and [Electron menu documentation](https://github.com/atom/electron/blob/master/docs/api/menu.md) for more on what that array should look like) and an optional `settings` argument with the following defaults:
 
