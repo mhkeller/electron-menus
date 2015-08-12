@@ -5,6 +5,8 @@ Electron menus
 
 > Add native menu items to renderer-side projects from the browser-side.
 
+**Note** This library might be pointless since I recently learned you can include menus from the browser-side if you include them after the app is ready.
+
 ## Installation
 
 ````shell
@@ -34,6 +36,8 @@ Takes a `pathToIndexFile`, an optional `menuDefinition` to use, if not provided 
 ````
 
 ## Reasoning
+
+**SEE NOTE ABOVE FOR POSSIBLE POINTLESSNESS OF THIS MODULE**
 
 Loading a flat file web app into Electron is quite easy, you would either hardcode those files, or, better yet, include that project as a module and point your `window.loadUrl` method at it.
 
